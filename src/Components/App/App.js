@@ -1,11 +1,12 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import SearchBar from '../SearchBar.js';
 import SearchResults from '../SearchResults.js';
 import Playlist from '../Playlist.js';
 
-function App() {
-  function render() {
+class App extends React.Component {
+  render() {
     return (
       <div>
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
